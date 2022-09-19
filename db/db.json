@@ -1,0 +1,94 @@
+{
+  "projects": [
+    {
+      "name": "Projeto de Infra",
+      "budget": 10000,
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "cost": 7400,
+      "services": [
+        {
+          "name": "Contratar um DevOps",
+          "cost": 5000,
+          "description": "DevOps para criar projeto na AWS",
+          "id": "79475653-9d65-4eb0-921b-9b12b6c6be52"
+        },
+        {
+          "name": "Servico 1",
+          "cost": 2400,
+          "description": "servico desc",
+          "id": "3125fbd0-d74d-4600-803b-5e544a7e1109"
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": "Desenvolvimento do novo site",
+      "budget": 3000,
+      "category": {
+        "id": "2",
+        "name": "Desenvolvimento"
+      },
+      "cost": 12,
+      "services": [
+        {
+          "name": "Servico 1",
+          "cost": 0,
+          "description": "servico desc test",
+          "id": "6c27b35b-53b2-4794-a930-482f1a2e7398"
+        },
+        {
+          "name": "Scrum Master",
+          "cost": 12,
+          "description": "Contratar um Devops",
+          "id": "6f739088-2335-4e09-a1a4-f96e61c370b3"
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": "O2",
+      "budget": 430,
+      "category": {
+        "id": 2,
+        "name": "Desenvolvimento"
+      },
+      "cost": 12,
+      "services": [
+        {
+          "name": "Servico 1",
+          "cost": 10,
+          "description": "servico desc test",
+          "id": "df11d496-1c5a-4233-bf70-9c07673cdf73"
+        },
+        {
+          "name": "Servico 2",
+          "cost": 2,
+          "description": "servico desc",
+          "id": "e932c1f6-c512-4a0c-8f49-127f5d2d335c"
+        }
+      ],
+      "id": 4
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
+}

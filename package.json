@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "backend": "json-server --watch db/db.json --port 5000"
+  },
+  "devDependencies": {
+    "nuxt": "3.0.0-rc.9"
+  },
+  "dependencies": {
+    "@asigloo/vue-dynamic-forms": "^3.18.1",
+    "@nuxtjs/axios": "^5.13.6",
+    "json-server": "^0.17.0",
+    "stylus-loader": "^3.0.2",
+    "vue-alert-alert": "^1.0.2",
+    "vue-toast-notification": "^3.0.4",
+    "vue-uuid": "^3.0.0"
+  }
+}
